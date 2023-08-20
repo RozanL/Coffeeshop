@@ -1,0 +1,158 @@
+nav, div, footer{
+    background-color: #FFF0ED;
+}
+body{
+    margin: 0;
+}
+.button{
+    background-color:#5BACC3 ;
+    color: white;
+    border: none;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 10px;
+}
+.button-position{
+    text-align: center;
+    background-color: #F7F7F7;
+    padding: 40px;
+}
+.price{
+    color: #5BACC3;
+    text-align: center;
+}
+.main__shop{
+    background-color: #F7F7F7; 
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+.main__shop--card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Width: 330px;
+    height: 440px;
+    padding: 20px;
+    margin: 20px;       
+    border-radius: 10px;
+    box-shadow:0 5px 9px -1px rgba(0, 0, 0, 0.25); 
+    background-color: white; 
+}
+.main__section{
+    background-color: #F7F7F7;
+}
+.main__shop--content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F7F7F7;
+}
+.image-box{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+h3, .head{
+    font-size: 33px;
+    font-weight: 300;
+}
+h1, h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.discount{
+    font-size: 45px;
+    font-weight: 400;
+    width: 50%;
+    background-color: #393939;
+    color: white;
+    margin: 80px 20px;
+    border: 40px 20px; 
+    text-align: center;
+
+}
+.discount__content{
+    margin: 32px 0;
+    padding: 25px 0;
+    width: 90%;
+    margin-right: 0;
+    
+}
+b{
+    font-weight: 700;
+}
+header{
+    margin-top: 0;
+    padding: 0;
+}
+
+.mainNav{
+    display: flex;
+    background-color: #FFF0ED;
+}
+.mainNav__header{
+    /* font size for nitro, h3 tag */
+    font-size: 33px;
+    font-weight: 300;
+}
+
+.mainNav__content{
+    display: flex;
+    padding-bottom: 0;
+    margin: 0;
+}
+.mainNav__items{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.mainNav--list{
+    display: flex;
+    padding: 1rem;
+}
+.mainContent{
+    margin: 0;
+    padding: 0;
+}
+.mainNav--active{
+    color: #5BACC3;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mainNav--list__color{
+    color: #5BACC3;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.belowNav{
+    display: flex;
+    justify-content: flex-start;
+}
+.belowNav__section{
+    padding-left: 100px;
+    width: 450px;
+    height: 150px;
+    padding-right: 560px;
+}
+
+.belowNav__section--text{
+    text-align: left;
+}
+.belowNav__section--img{
+    padding-bottom: 35px;
+}
+
